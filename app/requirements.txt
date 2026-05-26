@@ -1,0 +1,10 @@
+cat > /home/khokan/rag-platform/app/requirements.txt << 'EOF'
+fastapi
+uvicorn
+pymilvus>=2.5.0
+redis
+sentence-transformers
+python-multipart
+pdfminer.six
+httpx
+EOF
